@@ -1,0 +1,17 @@
+{
+  "name": "bank-validation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^8.3.2",
+    "axios": "^0.21.1"
+  },
+  "scripts": {
+    "test": "mocha --timeout 5000",
+    "test-spec": "mocha --timeout 5000 --recursive -R doc > spec.html"
+  },
+  "author": "",
+  "license": "ISC"
+}
